@@ -54,7 +54,7 @@ group28-python-quests/
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-org/group28-python-quests.git
+git clone https://github.com/cynthiaumwali/group28-python-quests.git
 cd group28-python-quests
 python3 quests/quest_01_first_spell.py
 ```
