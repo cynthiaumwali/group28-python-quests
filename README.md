@@ -16,7 +16,7 @@ group28-python-quests/
 └── README.md
 ```
 
-## 🗺️ Quests Overview
+## Quests Overview
 
 | Quest | Title | Concept |
 |-------|-------|---------|
@@ -51,7 +51,7 @@ group28-python-quests/
 | 29 | Code Breaker | Grand Challenge |
 | 30 | Reflective Scribe | Comments |
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/cynthiaumwali/group28-python-quests.git
@@ -59,11 +59,11 @@ cd group28-python-quests
 python3 quests/quest_01_first_spell.py
 ```
 
-## 👥 Contributors
+## Contributors
 
 Add your name here as you contribute.
 
-## 📌 Rules
+## Rules
 
 Create a branch for your work and open a PR
 
