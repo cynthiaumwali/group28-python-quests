@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def adventure_begins():
     print("Welcome! Please choose your adventure: [1: Mountain Climbing, 2: Kayaking, 3: Paragliding]")
     user_choice = input("Enter the number of your choice: ")
