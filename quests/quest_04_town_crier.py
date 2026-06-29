@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 my_city = "Kigali"
 current_year = 2026
 my_name = "Cynthia"
