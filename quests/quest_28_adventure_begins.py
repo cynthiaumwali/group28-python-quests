@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def adventure_begins():
-    print("Welcome! Please choose your adventure: [1: Mountain Climbing, 2: Kayaking, 3: Paragliding]")
+    print("Welcome! Choose your adventure: [1: Mountain Climbing, 2: Kayaking, 3: Paragliding]")
     user_choice = input("Enter the number of your choice: ")
     if user_choice == "1":
         mountain_climbing()
@@ -14,27 +14,36 @@ def adventure_begins():
         adventure_begins()
 
 def mountain_climbing():
-    print("You have chosen Mountain Climbing! Have fun!")
-    exit_choice = input("Do you want to exit the adventure? (yes/no): ")
-    if exit_choice.lower() == "yes":
-        print("Goodbye! Thanks for playing!")
+    print("\nYou have chosen Mountain Climbing!\nYou are halfway up. The cold is getting too much.")
+    choice = input("Do you [1: keep climbing, 2: go back down]? ")
+    if choice == "1":
+        print("\nCongratulations! You have reached the top of the mountain.")
+    elif choice == "2":
+        print("\nYou headed back down safely.")
     else:
-        adventure_begins()
+        print("Invalid choice.")
+        mountain_climbing()
 
 def kayaking():
-    print("You have chosen Kayaking! Enjoy the water!")
-    exit_choice = input("Do you want to exit the adventure? (yes/no): ")
-    if exit_choice.lower() == "yes":
-        print("Goodbye! Thanks for playing!")
+    print("\nYou have chosen Kayaking!\nYou are on the river. A storm is approaching.")
+    choice = input("Do you [1: keep paddling, 2: go back to the shore]? ")
+    if choice == "1":
+        print("\nCongratulations! You made it through the storm.")
+    elif choice == "2":
+        print("\nYou are back to the shore.")
     else:
-        adventure_begins()
+        print("Invalid choice.")
+        kayaking()
 
 def paragliding():
-    print("You have chosen Paragliding! Enjoy the sky views!")
-    exit_choice = input("Do you want to exit the adventure? (yes/no): ")
-    if exit_choice.lower() == "yes":
-        print("Goodbye! Thanks for playing!")
+    print("\nYou have chosen Paragliding!\nYou are up in the air. The wind is getting stronger.")
+    choice = input("Do you [1: stay up, 2: go back down]? ")
+    if choice == "1":
+        print("\nCongratulations! You completed the flight.")
+    elif choice == "2":
+        print("\nYou are back on the ground.")
     else:
-        adventure_begins()
+        print("Invalid choice.")
+        paragliding()
 
 adventure_begins()
